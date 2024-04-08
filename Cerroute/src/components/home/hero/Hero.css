@@ -34,12 +34,6 @@
     justify-content: space-between;
   }
 }
-
-
-
-
-
-
 .col-right {
   flex: 0 0 50%;
   width: 110%;
@@ -50,7 +44,4 @@
   justify-content: center;
   align-items: center;
 }
-
-/* Diğer stillendirmeleri buraya ekleyebilirsiniz */
-
 

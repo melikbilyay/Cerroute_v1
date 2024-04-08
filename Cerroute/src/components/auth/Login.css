@@ -83,29 +83,9 @@ h2 {
     color: #1976d2; /* Hover rengi */
 }
 
-.css-1ps4owl-MuiTypography-root-MuiLink-root {
-    margin: 0;
-    color: #ff9a01;
-    -webkit-text-decoration: underline;
-    text-decoration: underline;
-    text-decoration-color: rgba(25, 118, 210, 0.4);
-}
+
 .login-layer a {
     color: #ff9a01 !important;
     text-decoration-color: grey !important;
 }
 
-root {
-"& .MuiOutlinedInput-notchedOutline": {
-    borderColor: "blue"
-},
-"&.Mui-focused .MuiOutlinedInput-notchedOutline": {
-    borderColor: "red"
-}
-}
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100; /* Diğer öğelerin üzerinde görünmesini sağlar */
-}
