@@ -1,0 +1,111 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85.7vh;
+    background-image: url('./bga.png');
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.login-layer {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Opacity for better readability */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input[type='checkbox'] {
+    margin-right: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 30px !important;
+    border: 1px solid #ccc; /* Normal durumda çerçeve rengi */
+    border-color: #ff9a01 !important; /* Normal durumda çerçeve rengi */
+}
+
+input:hover {
+    border-color: red !important; /* Üzerine gelindiğinde çerçeve rengi */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px !important;
+    background-color: #ff9a01 !important;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9a01 !important;
+}
+
+.error {
+    color: #ff9a01;
+    margin-top: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.social-icons svg {
+    color: #ff9a01; /* İstenilen renk */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Renk geçiş animasyonu */
+}
+
+.social-icons svg:hover {
+    color: #1976d2; /* Hover rengi */
+}
+
+.css-1ps4owl-MuiTypography-root-MuiLink-root {
+    margin: 0;
+    color: #ff9a01;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-color: rgba(25, 118, 210, 0.4);
+}
+.login-layer a {
+    color: #ff9a01 !important;
+    text-decoration-color: grey !important;
+}
+
+root {
+"& .MuiOutlinedInput-notchedOutline": {
+    borderColor: "blue"
+},
+"&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+    borderColor: "red"
+}
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Diğer öğelerin üzerinde görünmesini sağlar */
+}
