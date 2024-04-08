@@ -37,10 +37,10 @@ const Header = () => {
               <input type="search" placeholder="Search..."/>
             </li>
             <li>
-              <a href='http://localhost:3000/login' rel='noopener noreferrer'>Sign In</a>
+              <a href='/login' rel='noopener noreferrer'>Sign In</a>
             </li>
             <li>
-              <a href='http://localhost:3000/register' rel='noopener noreferrer'>Sign Up</a>
+              <a href='/register' rel='noopener noreferrer'>Sign Up</a>
             </li>
             <li>
               <i className="fa fa-shopping-cart"></i>

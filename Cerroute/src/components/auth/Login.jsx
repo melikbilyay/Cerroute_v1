@@ -66,10 +66,10 @@ function Login() {
                             <input type="search" placeholder="Search..."/>
                         </li>
                         <li>
-                            <a href='http://localhost:3000/login' rel='noopener noreferrer'>Sign In</a>
+                            <a href='https://www.cerroute.com/login' rel='noopener noreferrer'>Sign In</a>
                         </li>
                         <li>
-                            <a href='http://localhost:3000/register' rel='noopener noreferrer'>Sign Up</a>
+                            <a href='https://www.cerroute.com/register' rel='noopener noreferrer'>Sign Up</a>
                         </li>
                         <li>
                             <i className="fa fa-shopping-cart"></i>
