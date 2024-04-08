@@ -2,7 +2,7 @@ import React from "react"
 import { testimonal } from "../../../dummydata"
 import Heading from "../../common/heading/Heading"
 import "./style.css"
-
+import Mux from "../../mux/Mux";
 const Testimonal = () => {
   return (
     <>

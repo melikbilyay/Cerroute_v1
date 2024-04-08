@@ -2,13 +2,13 @@ import React from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
 import ImageSlider from "./Slider";
-import adsiztasarim from "./images/adsiztasarim.svg";
-import adsiztasarim2 from "./images/adsiztasarim2.svg";
-import adsiztasarim3 from "./images/adsiztasarim3.svg";
-import adsiztasarim4 from "./images/adsiztasarim4.svg";
-
+import a from "./images/a.svg";
+import b from "./images/b.svg";
+import c from "./images/c.svg";
+import d from "./images/d.svg";
+import Mux from "../../mux/Mux";
 const Hero = () => {
-      const images = [adsiztasarim, adsiztasarim2, adsiztasarim3, adsiztasarim4];
+      const images = [a, b, c, d];
     return (
         <>
             <section className='hero'>
@@ -30,6 +30,7 @@ const Hero = () => {
                         </div>
                         <div className="col-right">
                             <ImageSlider images={images} />
+
                         </div>
                     </div>
                 </div>

@@ -67,6 +67,10 @@
   font-size: 20px;
   font-weight: 500;
 }
+.empty-span {
+  display: inline-block;
+  min-width: 100px;
+}
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
   .aboutHome .container {

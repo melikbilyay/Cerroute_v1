@@ -11,6 +11,9 @@
   padding-top: 20%;
   padding-right: 50px;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero #heading h3 {
   color: #fff;
@@ -40,7 +43,7 @@
   height: 150%;
   margin-left: 650px;
   margin-right: -650px;
-  margin-top: -250px;
+  margin-top: -350px;
   justify-content: center;
   align-items: center;
 }
