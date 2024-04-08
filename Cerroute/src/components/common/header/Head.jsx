@@ -8,7 +8,7 @@ const Head = () => {
     const handleClick = (button) => {
         setSelectedButton(button);
         if (button === 'individuals') {
-            window.location.href = 'http://localhost:3005/courses'; // "facebook.com" sayfasına yönlendirme yapın
+            window.location.href = '/';
         }
     }
 
